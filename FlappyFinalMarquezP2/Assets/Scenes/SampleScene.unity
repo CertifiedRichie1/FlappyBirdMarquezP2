@@ -986,8 +986,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 760687744}
   - {fileID: 536730234}
+  - {fileID: 760687744}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1008,6 +1008,7 @@ GameObject:
   - component: {fileID: 1349485263}
   - component: {fileID: 1349485262}
   - component: {fileID: 1349485261}
+  - component: {fileID: 1349485265}
   m_Layer: 0
   m_Name: Ground 2
   m_TagString: Untagged
@@ -1167,6 +1168,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1349485265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349485259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460480d9be9d2842a37c7d36a5aa2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1405279150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,6 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1406019422}
   - component: {fileID: 1406019421}
+  - component: {fileID: 1406019423}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1347,6 +1361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 536730233}
+  scoreText: {fileID: 0}
   gameOver: 0
   scrollSpeed: -1.5
 --- !u!4 &1406019422
@@ -1364,6 +1379,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1406019423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406019420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416e64a58b0b8b945b209ab9b6f954b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1887889586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1404,7 @@ GameObject:
   - component: {fileID: 1887889589}
   - component: {fileID: 1887889591}
   - component: {fileID: 1887889590}
+  - component: {fileID: 1887889592}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -1534,6 +1562,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 036c2fe581501124cba4408da61fefc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1887889592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887889586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460480d9be9d2842a37c7d36a5aa2f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1957154351
