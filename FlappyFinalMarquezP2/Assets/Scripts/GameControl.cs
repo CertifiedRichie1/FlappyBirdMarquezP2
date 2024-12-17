@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class GameControl : MonoBehaviour  {
 
+public class GameControl : MonoBehaviour {
 
     public static GameControl instance;
     public GameObject gameOverText;
@@ -18,8 +18,8 @@ public class GameControl : MonoBehaviour  {
     void Awake()
     {
         if (instance == null) {
-        instance = this;
-        }else if (instance != this)
+            instance = this;
+        } else if (instance != this)
         {
             Destroy(gameObject);
         }

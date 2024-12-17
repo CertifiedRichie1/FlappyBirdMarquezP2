@@ -22,7 +22,7 @@ public class RepeatingBackground : MonoBehaviour
             RepositionBackground();
         }
     }
-    
+
     private void RepositionBackground()
     {
         Vector2 groundOffset = new Vector2(groundHorizontalLength * 2f, 0);
